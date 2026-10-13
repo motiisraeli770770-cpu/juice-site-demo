@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>מיץ טבעי רמת שלמה</title>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--o:#ff8a00;--o2:#ffb347;--g:#2e9e44;--g2:#a8e063;--cream:#fffaf0;--dark:#2b2b2b}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Heebo,Arial,sans-serif;background:var(--cream);color:var(--dark);line-height:1.6}
+a{color:inherit}
+nav{position:sticky;top:0;background:#fff;box-shadow:0 2px 8px #0001;display:flex;justify-content:space-between;align-items:center;padding:.8rem 1.5rem;z-index:10;flex-wrap:wrap;gap:.5rem}
+nav .logo{font-weight:900;color:var(--g);font-size:1.3rem}
+nav ul{display:flex;gap:1rem;list-style:none;flex-wrap:wrap}
+nav a{text-decoration:none;font-weight:700}
+nav a:hover{color:var(--o)}
+.hero{background:linear-gradient(135deg,var(--o),var(--o2) 50%,var(--g2));color:#fff;text-align:center;padding:5rem 1.5rem}
+.hero .emoji{font-size:4rem;letter-spacing:.5rem}
+.hero h1{font-size:clamp(2rem,6vw,3.5rem);font-weight:900;text-shadow:0 3px 10px #0003}
+.hero p{font-size:1.25rem;margin:1rem auto 2rem;max-width:600px}
+.btn{display:inline-block;background:var(--g);color:#fff;padding:.9rem 2rem;border-radius:50px;font-weight:700;font-size:1.1rem;text-decoration:none;box-shadow:0 5px 15px #0003;transition:transform .2s}
+.btn:hover{transform:translateY(-3px)}
+section{padding:4rem 1.5rem;max-width:1100px;margin:auto}
+h2{text-align:center;font-size:2.2rem;color:var(--g);margin-bottom:.5rem}
+.note{text-align:center;color:#888;font-size:.95rem;margin-bottom:2rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.5rem}
+.card{background:#fff;border-radius:20px;padding:1.5rem;text-align:center;box-shadow:0 4px 15px #0001;border-top:6px solid var(--o)}
+.card:nth-child(even){border-top-color:var(--g)}
+.card .ic{font-size:3rem}
+.card h3{margin:.5rem 0}
+.card p{color:#666;font-size:.95rem}
+.price{display:inline-block;margin-top:.8rem;background:var(--o);color:#fff;padding:.2rem 1rem;border-radius:20px;font-weight:700}
+.price small{font-weight:400;opacity:.85}
+.alt{background:linear-gradient(180deg,#f0fbe8,var(--cream));max-width:none}
+.alt>div{max-width:800px;margin:auto;text-align:center;font-size:1.15rem}
+table{margin:auto;border-collapse:collapse;background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 4px 15px #0001;min-width:280px}
+td{padding:.9rem 1.5rem;border-bottom:1px solid #eee}
+td:last-child{font-weight:700;color:var(--g)}
+tr.closed td:last-child{color:#c0392b}
+.loc{text-align:center;font-size:1.2rem}
+.map{margin:1.5rem auto 0;max-width:600px;height:200px;border-radius:20px;background:repeating-linear-gradient(45deg,#e8f5e0,#e8f5e0 20px,#fff3e0 20px,#fff3e0 40px);display:flex;align-items:center;justify-content:center;font-size:3rem;border:3px dashed var(--g2)}
+.contact{background:var(--g);color:#fff;text-align:center;max-width:none}
+.contact h2{color:#fff}
+.contact .btn{background:var(--o)}
+footer{background:var(--dark);color:#ccc;text-align:center;padding:1.5rem;font-size:.9rem}
+</style>
+</head>
+<body>
+<nav><span class="logo">🍊 מיץ טבעי רמת שלמה</span>
+<ul><li><a href="#menu">תפריט</a></li><li><a href="#about">אודות</a></li><li><a href="#hours">שעות</a></li><li><a href="#location">מיקום</a></li><li><a href="#contact">צור קשר</a></li></ul></nav>
+<header class="hero">
+<div class="emoji">🍊🍓🥝🍍</div>
+<h1>מיץ טבעי רמת שלמה</h1>
+<p>מיצים סחוטים טריים ושייקים מפירות אמיתיים — ישר מהפרי אל הכוס, בלב רמת שלמה</p>
+<a class="btn" href="https://wa.me/972500000000" target="_blank">📲 הזמינו בוואטסאפ</a>
+</header>
+<section id="menu">
+<h2>התפריט שלנו</h2>
+<p class="note">* המחירים לדוגמה בלבד</p>
+<div class="grid">
+<div class="card"><div class="ic">🍊</div><h3>תפוזים סחוט</h3><p>תפוזים טריים, סחוטים במקום</p><span class="price">₪18 <small>(לדוגמה)</small></span></div>
+<div class="card"><div class="ic">🥕</div><h3>גזר-תפוז-ג׳ינג׳ר</h3><p>בוסט של אנרגיה וויטמינים</p><span class="price">₪20 <small>(לדוגמה)</small></span></div>
+<div class="card"><div class="ic">🍏</div><h3>ירוק בריא</h3><p>תפוח, סלרי, מלפפון ונענע</p><span class="price">₪22 <small>(לדוגמה)</small></span></div>
+<div class="card"><div class="ic">🍉</div><h3>אבטיח-נענע</h3><p>מרענן במיוחד לימי קיץ</p><span class="price">₪18 <small>(לדוגמה)</small></span></div>
+<div class="card"><div class="ic">🍓</div><h3>שייק תות-בננה</h3><p>תותים, בננה ויוגורט</p><span class="price">₪24 <small>(לדוגמה)</small></span></div>
+<div class="card"><div class="ic">🥭</div><h3>שייק טרופי</h3><p>מנגו, אננס ופסיפלורה</p><span class="price">₪26 <small>(לדוגמה)</small></span></div>
+</div></section>
+<section id="about" class="alt"><div>
+<h2>אודותינו</h2>
+<p>אנחנו בר מיצים שכונתי ברמת שלמה, ירושלים. כל בוקר אנחנו בוחרים את הפירות הטריים ביותר, וסוחטים לכם הכל במקום — בלי סוכר מוסף, בלי חומרים משמרים, רק טבע בכוס. 🌿</p>
+</div></section>
+<section id="hours">
+<h2>שעות פתיחה</h2>
+<p class="note">* שעות לדוגמה בלבד</p>
+<table>
+<tr><td>ראשון – חמישי</td><td>08:00 – 21:00</td></tr>
+<tr><td>שישי</td><td>08:00 – 13:00</td></tr>
+<tr class="closed"><td>שבת</td><td>סגור</td></tr>
+</table></section>
+<section id="location" class="loc">
+<h2>מיקום</h2>
+<p>📍 רמת שלמה, ירושלים</p>
+<p class="note">[כתובת מדויקת תתווסף כאן]</p>
+<div class="map">🗺️</div>
+</section>
+<section id="contact" class="contact">
+<h2>צרו קשר</h2>
+<p style="margin-bottom:1.5rem">רוצים להזמין מראש או לשאול שאלה? שלחו לנו הודעה!</p>
+<a class="btn" href="https://wa.me/972500000000" target="_blank">💬 שלחו הודעה בוואטסאפ</a>
+</section>
+<footer>© 2026 מיץ טבעי רמת שלמה · אתר לדוגמה בלבד 🍹</footer>
+</body></html>
